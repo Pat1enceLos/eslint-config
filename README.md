@@ -5,13 +5,13 @@
 
 #### Install
 ```bash
-yarn add -D @oa/eslint-config-oa
+yarn add -D @oa/eslint-config
 ```
 
 #### Config .eslintrc
 ```js
 module.exports = {
-  extends: 'oa'
+  extends: '@oa'
 }
 ```
 
