@@ -1,0 +1,1 @@
+## OA ESLint config presets

@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-oa",
+  "version": "0.0.1",
+  "description": "ESLint config presets for OA",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./fixture"
+  },
+  "keywords": [
+    "eslint config",
+    "oa"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "author": "tanyang@xd.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "eslint": "^8.22.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-vue": "^9.4.0",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  }
+}
