@@ -1,10 +1,11 @@
 {
-  "name": "eslint-config-oa",
+  "name": "@oa/eslint-config-oa",
   "version": "0.0.1",
   "description": "ESLint config presets for OA",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./fixture"
+    "lint": "eslint ./fixture",
+    "publish": "npm publish --registry http://npm.xindong.com"
   },
   "keywords": [
     "eslint config",
