@@ -2,23 +2,30 @@
   "name": "@trevortan/eslint-config",
   "version": "0.0.2",
   "description": "ESLint config presets inspired by antfu",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "homepage": "https://github.com/Pat1enceLos/eslint-config",
+  "license": "MIT",
   "scripts": {
-    "lint": "eslint ./fixture"
+    "lint": "eslint ./fixture",
+    "build": "tsup index.js --format esm,cjs --clean"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
   },
   "keywords": [
     "eslint config"
   ],
   "files": [
-    "index.js",
-    "standard.js"
+    "dist"
   ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "author": "niceless0416@gmail.com",
-  "license": "ISC",
   "devDependencies": {
     "eslint": "^8.22.0",
     "typescript": "^4.7.4"
@@ -31,7 +38,8 @@
     "eslint-plugin-i": "^2.29.0",
     "eslint-plugin-n": "^15.2.5",
     "eslint-plugin-promise": "^6.0.1",
-    "eslint-plugin-vue": "^9.4.0"
+    "eslint-plugin-vue": "^9.4.0",
+    "tsup": "^7.2.0"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0",
