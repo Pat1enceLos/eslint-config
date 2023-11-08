@@ -1,15 +1,13 @@
 {
   "name": "@trevor/eslint-config",
   "version": "0.0.1",
-  "description": "ESLint config presets for OA",
+  "description": "ESLint config presets inspired by antfu",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./fixture",
-    "publish": "npm publish --registry http://npm.xindong.com"
+    "lint": "eslint ./fixture"
   },
   "keywords": [
-    "eslint config",
-    "oa"
+    "eslint config"
   ],
   "files": [
     "index.js",
