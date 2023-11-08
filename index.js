@@ -3,7 +3,7 @@ import * as pluginImport from 'eslint-plugin-i'
 import { default as pluginComments } from 'eslint-plugin-eslint-comments'
 import { default as pluginTs } from '@typescript-eslint/eslint-plugin'
 
-export default function trevortan() {
+export default function trevortan(...userConfig) {
   return [
     {
       plugins: {
@@ -376,5 +376,6 @@ export default function trevortan() {
         '@typescript-eslint/no-unused-vars': 'off',
       },
     },
+    ...userConfig,
   ]
 }

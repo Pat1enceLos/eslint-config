@@ -5,6 +5,7 @@
   "main": "./dist/index.js",
   "homepage": "https://github.com/Pat1enceLos/eslint-config",
   "license": "MIT",
+  "type":"module",
   "scripts": {
     "lint": "eslint ./fixture",
     "build": "tsup index.js --format esm,cjs --clean"
