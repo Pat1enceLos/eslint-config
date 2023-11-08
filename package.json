@@ -1,5 +1,5 @@
 {
-  "name": "@trevor/eslint-config",
+  "name": "@pat1encelos/eslint-config",
   "version": "0.0.1",
   "description": "ESLint config presets inspired by antfu",
   "main": "index.js",
