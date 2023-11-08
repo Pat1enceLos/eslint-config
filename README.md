@@ -1,17 +1,17 @@
-## OA ESLint Config Presets
+## ESLint Config Presets
 
 ### Usage
 ---
 
 #### Install
 ```bash
-yarn add -D @oa/eslint-config
+yarn add -D @trevor/eslint-config
 ```
 
 #### Config .eslintrc
 ```js
 module.exports = {
-  extends: '@oa'
+  extends: '@trevor'
 }
 ```
 
