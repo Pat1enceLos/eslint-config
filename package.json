@@ -1,5 +1,5 @@
 {
-  "name": "@oa/eslint-config",
+  "name": "@trevor/eslint-config",
   "version": "0.0.1",
   "description": "ESLint config presets for OA",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "index.js",
     "standard.js"
   ],
-  "author": "tanyang@xd.com",
+  "author": "niceless0416@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.22.0",
