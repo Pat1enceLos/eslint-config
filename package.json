@@ -13,6 +13,10 @@
     "index.js",
     "standard.js"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "niceless0416@gmail.com",
   "license": "ISC",
   "devDependencies": {
