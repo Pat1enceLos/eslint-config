@@ -1,6 +1,6 @@
 {
   "name": "@trevortan/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLint config presets inspired by antfu",
   "main": "./dist/index.js",
   "homepage": "https://github.com/Pat1enceLos/eslint-config",
