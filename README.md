@@ -5,13 +5,13 @@
 
 #### Install
 ```bash
-yarn add -D @pat1encelos/eslint-config
+yarn add -D @trevortan/eslint-config
 ```
 
 #### Config .eslintrc
 ```js
 module.exports = {
-  extends: '@pat1encelos'
+  extends: '@trevortan'
 }
 ```
 
